@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+ 
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #173E44;
+}
+
+.navbar-dark .navbar-brand {
+    color: rgb(63,176,172, 0.9);
+    font-size: 30px;
+    font-weight: 600;
+    /* font-family:  */
+    transition: .2s ease;
+}
+
+.navbar-dark .navbar-brand:hover {
+    transition: .2s ease;
+    color: rgb(63,176,172, 0.8);
+}
+
+header {
+    background-image: linear-gradient(rgba(63,176,172, 0.8), rgba(63,176,172, 0.8)), url(skills.jpg);
+    
+    
+    height: 100vh;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+ .banner-text p {
+        
+        color: #fff;
+    }
+
+.banner-btn a {
+    border: 1px solid #fff;
+    border-radius: 3%;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.banner-btn a.active {
+    background: #173E44;
+    border-color: #173E44;
+    color: rgba(256,256,256,0.6);
+     
+}
+
+
+.text-area {
+    font-size: 25px;
+    color: #173E44;
+    /* color: rgba(25ras6,256,256,0.8); */
+  
+    font-weight: 600;
+}
+
+
+.text-area div.intro  span.color {
+    color: #173E44;
+    opacity: 1;
+}
+
+img.imgSize {
+    width:500px;
+    height: 500px;
+}
+
+.about#aboutMe h2, .about#aboutMe p {
+    color: #173E44;
+}
+
+.mySkills {
+   background-image: linear-gradient(rgba(23, 62, 68, 0.6), rgba(23, 62, 68, 0.7)), url(skills.jpg);
+background-color: rgba(23,62,68, 0.9);
+background-attachment: fixed;
+}
+
+.myskills-item1 {
+    background-color: rgba(221,223,212, 0.9);
+}
+
+.softskills {
+    background-color:rgb(23, 62, 68);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+.social a {
+    font-size: 4.5rem;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-google-plus-g {
+    color: #dd4b39;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: #d5d5d5;
+}
+
+footer.page-footer {
+    background-color: #173E44;
+}
+
+footer .footer-copyright {
+    color: rgba(256,256,256,0.6)!important;
+}
+
+    
+footer .footer-copyright a {
+    color: rgba(63,176,172, 0.9);
+    transition: .2s ease;
+}
+
+footer .footer-copyright a:hover {
+    color: rgba(63,176,172, 1);
+    transition: .2s ease;
+    text-decoration: none;
+}
+
+
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-dark .navbar-brand {
+        font-size: 25px;
+    }
+
+
+
+.text-area {
+    font-size: 18px;
+   
+}
+
+.banner-btn a {
+padding: 0;
+padding: 5px 15px;
+}
+
+.social a {
+    font-size: 2em;
+    padding: .7rem;
+}   
+
+
+}
+
+/* for banner */
+@media (min-height: 550px) {
+    .text-disp {
+        display: block;
+    }
+}
+
+@media (max-height: 550px) {
+    .text-disp {
+        display: none
+    }
+}
+
+
+/* .text-area {
+    font-size: 110px;
+   
+    font-weight: bold;
+}
+
+.text-area span {
+    color: #173E44;
+    opacity: 0;
+    transform: translate(0 -100px) rotate(30deg) scale(0);
+    animation: animate 5s forwards;
+
+}
+
+.text-area span {
+    display: inline-block;
+}
+
+.text-area span:nth-of-type(2) {
+animation-delay: .1s;
+}
+
+.text-area span:nth-of-type(3) {
+    animation-delay: .2s;
+    }
+    .text-area span:nth-of-type(4) {
+        animation-delay: .3s;
+        }
+        .text-area span:nth-of-type(5) {
+            animation-delay: .4s;
+            }
+            .text-area span:nth-of-type(6) {
+                animation-delay: .5s;
+                }
+               
+@keyframes animate {
+    30% {
+        transform: translate(0, -50px) rotate(180deg) scale(1);
+
+    }
+
+    60% {
+        transform: translate(0, 20px) rotate(0deg) scale(0.8);
+    }
+
+    100% {
+        transform: translate(0) rotate(0deg) scale(1);
+       opacity: 1;
+    }
+} */
+
+/* responsive media queries */
+/* @media (max-width: 800px) { */
+    /* .banner-text p {
+        display: none;
+    } */
+
+    /* .text-area {
+        font-size: 27px;
+    } */
+/* } */
